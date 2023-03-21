@@ -1,0 +1,764 @@
+@media (max-width: 1600px) {
+    .header__menu {
+        margin-right: 190px;
+    }
+
+    .header__menu-item {
+        margin-right: 70px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .header__menu {
+        margin-right: 109px;
+    }
+
+    .header__menu-item {
+        margin-right: 70px;
+    }
+
+    .about-wrapper,
+    .how-wrapper,
+    .faq-wrapper {
+        margin-bottom: 80px;
+    }
+
+    .about__text {
+        width: 100%;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+
+    .about__box {
+        display: block;
+    }
+
+    .about__left {
+        width: 100%;
+        min-height: 640px;
+        margin-right: 0;
+        margin-bottom: 32px;
+        background-image: url("../img/about-1024.jpg");
+    }
+
+    .about__left-description-text {
+        max-width: 454px;
+    }
+
+    .about__right {
+        display: block;
+        width: 100%;
+    }
+
+    .about__right-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 317px;
+        background-position: 77px center;
+    }
+
+    .how__steps {
+        margin-bottom: 50px;
+    }
+
+    .how__left {
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+    }
+
+    .how__left-text {
+        max-width: 437px;
+    }
+
+    .btn_how-left-button-1 {
+        margin-right: 32px;
+    }
+
+    .faq__item-text {
+        font-size: 20px;
+    }
+
+    .footer__right {
+        display: none;
+    }
+}
+
+@media (max-width: 1280px) {
+    :root {
+        --indent: 50px;
+    }
+
+    .header__menu-dropdown {
+        display: block;
+        z-index: 3;
+        position: absolute;
+    }
+
+    .header__menu {
+        visibility: hidden;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        width: 320px;
+        min-height: 553px;
+        padding: 170px 50px 50px 50px;
+        border-bottom-right-radius: 32px;
+        border-bottom-left-radius: 32px;
+        overflow-y: auto;
+        background-color: var(--white);
+        box-shadow: 0px 5px 40px 0 var(--whisper);
+        transition: visibility 0.2s, transform 0.2s;
+        transform: translateY(-100%);
+    }
+
+    .header__menu-item {
+        margin-bottom: 60px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .header__menu-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .header__menu--active {
+        visibility: visible;
+        transform: none;
+    }
+
+    .header__menu-dropdown path {
+        opacity: 0;
+        transform: translate(3px);
+    }
+
+    .header__menu-dropdown rect {
+        opacity: 1;
+    }
+
+    .header__menu-dropdown--active path {
+        opacity: 1;
+    }
+
+    .header__menu-dropdown--active rect {
+        opacity: 0;
+    }
+
+    .stop-scroll {
+        overflow: visible;
+    }
+
+    .header__logo {
+        margin: 0 auto;
+    }
+
+    .how__right-1 {
+        background-image: url("../img/how-1024-1.jpg");
+    }
+
+    .how__right-2 {
+        background-image: url("../img/how-1024-2.jpg");
+    }
+
+    .how__right-3 {
+        background-image: url("../img/how-1024-3.jpg");
+    }
+
+    .how__right-4 {
+        background-image: url("../img/how-1024-4.jpg");
+    }
+
+    .footer-wrapper {
+        padding: 50px;
+    }
+
+    .footer__center {
+        align-content: flex-start;
+        width: 541px;
+        margin-bottom: 50px;
+    }
+
+    .footer__center-form-item input,
+    .footer__center-form-item textarea {
+        width: 493px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .header__logo-link {
+        width: 150px;
+        height: 48px;
+    }
+
+    .header__logo {
+        background-size: contain;
+    }
+
+    .swiper-container {
+        min-height: 668px;
+        margin-bottom: 40px;
+    }
+
+    .swiper-slide-1 {
+        background-image: url("../img/hero-1024-1.jpg");
+    }
+
+    .swiper-slide-2 {
+        background-image: url("../img/hero-1024-2.jpg");
+    }
+
+    .swiper-slide-3 {
+        background-image: url("../img/hero-1024-3.jpg");
+    }
+
+    .hero-wrapper {
+        padding: 160px 77px 160 77px;
+    }
+
+    .h1_hero-title {
+        max-width: 770px;
+        margin-bottom: 16px;
+        font-size: 50px;
+    }
+
+    .hero__text {
+        max-width: 660px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+
+    .how__box {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .how__left {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .how__left-text {
+        min-width: 100%;
+        margin-bottom: 25px;
+        padding-right: 0;
+    }
+
+    .how__right {
+        width: 100%;
+        height: 284px;
+        margin-bottom: 38px;
+        border-radius: 32px;
+    }
+
+    .how__right-1 {
+        background-image: url("../img/how-768-1.jpg");
+    }
+
+    .how__right-2 {
+        background-image: url("../img/how-768-2.jpg");
+    }
+
+    .how__right-3 {
+        background-image: url("../img/how-768-3.jpg");
+    }
+
+    .how__right-4 {
+        background-image: url("../img/how-768-4.jpg");
+    }
+
+    .btn_footer-center-button {
+        width: 241px;
+    }
+}
+
+@media (max-width: 960px) {
+    .header__menu {
+        min-height: 569px;
+        padding: 152px 50px 50px 50px;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+    }
+
+    .accordion-content.hide .title::before {
+        margin-left: 20px;
+    }
+
+    .footer-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .footer__left-menu {
+        margin-bottom: 16px;
+    }
+
+    .footer__left-menu-item {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-wrapper {
+        height: 69px;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+    }
+
+    .swiper {
+        border-radius: 24px;
+    }
+
+    .swiper-container {
+        min-height: 662px;
+    }
+
+    .swiper-slide-1 {
+        background-image: url("../img/hero-768-1.jpg");
+    }
+
+    .swiper-slide-2 {
+        background-image: url("../img/hero-768-2.jpg");
+    }
+
+    .swiper-slide-3 {
+        background-image: url("../img/hero-768-3.jpg");
+    }
+
+    .hero-wrapper {
+        padding: 160px 40px 160px 40px;
+    }
+
+    .h1_hero-title {
+        max-width: 558px;
+        font-size: 50px;
+    }
+
+    .hero__text {
+        max-width: 588px;
+        font-size: 18px;
+    }
+
+    .about__left {
+        background-image: url("../img/about-768.jpg");
+        border-radius: 24px;
+    }
+
+    .about__left-description {
+        padding: 34px 40px 34px 40px;
+    }
+
+    .about__left-description-text {
+        max-width: 366px;
+    }
+
+    .about__right-item {
+        padding-left: 180px;
+        background-size: 114px;
+        background-position-x: 40px;
+    }
+
+    .how__steps {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .how__steps-item {
+        margin-right: 0;
+    }
+
+    .faq__item-text {
+        margin-right: 8px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    :root {
+        --indent: 15px;
+    }
+
+    body {
+        color: var(--black);
+    }
+
+    .header-wrapper {
+        height: 69px;
+        margin-bottom: 30px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+
+    .header__menu {
+        width: 290px;
+        min-height: 314px;
+        padding: 78px 15px 15px 15px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+
+    .header__menu-item {
+        margin-bottom: 32px;
+        font-size: 16px;
+    }
+
+    .header__menu--active {
+        visibility: visible;
+        transform: none;
+    }
+
+    .header__logo-link {
+        width: 110px;
+        height: 35px;
+    }
+
+    .search-box {
+        width: 58px;
+        height: 69px;
+    }
+
+    .search-box.active {
+        width: 100%;
+        border-radius: 0;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        box-shadow: none;
+        right: 0;
+    }
+
+    .search-box__loupe {
+        margin-right: 14px;
+    }
+
+    .search-box__input {
+        /* margin-right: 1px; */
+        padding-left: 15px;
+    }
+
+    .search-box__input input {
+        font-size: 16px;
+    }
+
+    .search-box__close circle {
+        stroke: var(--nobel);
+    }
+
+    .search-box__close rect {
+        fill: var(--nobel);
+    }
+
+    .search-box__close:hover circle {
+        stroke: var(--black);
+    }
+
+    .search-box__close:hover rect {
+        fill: var(--black);
+    }
+
+    .swiper {
+        border-radius: 16px;
+    }
+
+    .swiper-container {
+        min-height: 308px;
+        margin-bottom: 60px;
+    }
+
+    .swiper-slide-1 {
+        background-image: url("../img/hero-320-1.jpg");
+    }
+
+    .swiper-slide-2 {
+        background-image: url("../img/hero-320-2.jpg");
+    }
+
+    .swiper-slide-3 {
+        background-image: url("../img/hero-320-3.jpg");
+    }
+
+    .hero-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 15px 60px 15px;
+        text-align: center;
+    }
+
+    .h1 {
+        font-size: 20px;
+    }
+
+    .h1_hero-title {
+        max-width: 310px;
+        margin-bottom: 6px;
+    }
+
+    .hero__text {
+        max-width: 460px;
+        margin-bottom: 32px;
+        font-size: 12px;
+    }
+
+    .btn_hero-button {
+        padding: 13px 28px 13px 28px;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .swiper-pagination {
+        margin-bottom: 4px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+    }
+
+    .about-wrapper {
+        margin-bottom: 46px;
+    }
+
+    .h2 {
+        font-size: 24px;
+    }
+
+    .about__text {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+
+    .about__left {
+        min-height: 200px;
+        margin-bottom: 8px;
+        border-radius: 16px;
+        background-image: url("../img/about-320.jpg");
+    }
+
+    .about__left-description {
+        display: none;
+    }
+
+    .about__left-description-plus {
+        display: block;
+    }
+
+    .about__left-description-text {
+        max-width: 767px;
+        margin-bottom: 12px;
+        color: var(--black);
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .btn_about-left-description-button {
+        margin-bottom: 32px;
+        padding: 12px 44px 12px 44px;
+        border-radius: 8px;
+        color: var(--orange-peel);
+        font-size: 12px;
+    }
+
+    .btn_about-left-description-button:focus-visible,
+    .btn_about-left-description-button:hover,
+    .btn_about-left-description-button:active {
+        color: var(--white);
+    }
+
+    .about__right-text {
+        font-size: 14px;
+    }
+
+    .about__right-item {
+        margin-bottom: 17px;
+        padding: 69px 0px 15px 0;
+        border: none;
+        background-position: 0 0;
+        background-size: 64px;
+    }
+
+    .how-wrapper {
+        margin-bottom: 58px;
+    }
+
+    .h2_how-title {
+        margin-bottom: 21px;
+    }
+
+    .how__steps {
+        margin-bottom: 15px;
+    }
+
+    .how__steps-item {
+        font-size: 14px;
+    }
+
+    .how__steps-item-step {
+        font-size: 14px;
+    }
+
+    .how__left-button {
+        justify-content: space-between;
+    }
+
+    .how__right {
+        height: 160px;
+        margin-bottom: 19px;
+        border-radius: 16px;
+    }
+
+    .how__right-1 {
+        background-image: url("../img/how-320-1.jpg");
+    }
+
+    .how__right-2 {
+        background-image: url("../img/how-320-2.jpg");
+    }
+
+    .how__right-3 {
+        background-image: url("../img/how-320-3.jpg");
+    }
+
+    .how__right-4 {
+        background-image: url("../img/how-320-4.jpg");
+    }
+
+    .h3 {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .h3_how-left-title {
+        margin-bottom: 11px;
+        line-height: 1.46;
+    }
+
+    .how__left-text {
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+
+    .btn_how-left-button-1 {
+        margin-right: 0;
+        padding: 12px 44px 12px 44px;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .btn_how-left-button-2 {
+        padding: 12px 32px 12px 32px;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .faq-wrapper {
+        margin-bottom: 60px;
+    }
+
+    .faq__title {
+        margin-bottom: 16px;
+    }
+
+    .accordion-content .title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.714;
+    }
+
+    .accordion-content .description {
+        padding-top: 20px;
+    }
+
+    .accordion-content .description p {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 2;
+    }
+
+    .accordion-content .description p:last-child {
+        margin-bottom: 0;
+    }
+
+    .accordion-content.hide .title::before {
+        height: 30px;
+        margin-left: 15px;
+        content: url(../img/faq-320.svg);
+    }
+
+    .accordion-content.show .title::before {
+        height: 30px;
+        content: url(../img/faq-320.svg);
+    }
+
+    .accordion-content.hide .title:hover::before,
+    .accordion-content.show .title:hover::before {
+        content: url(../img/faq-orange-320.svg);
+    }
+
+    .footer-wrapper {
+        align-items: center;
+        padding: 33px 14px 28px 14px;
+    }
+
+    .footer__left {
+        width: auto;
+        border-top: 1px solid var(--charcoal);
+        background-image: url(../img/footer-logo.svg);
+        background-position: center 16px;
+        background-size: 131px;
+    }
+
+    .footer__left-menu {
+        display: none;
+    }
+
+    .footer__social {
+        padding-top: 74px;
+    }
+
+    .footer__social-item-link svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .h2_footer-center-title {
+        margin-bottom: 20px;
+    }
+
+    .footer__center {
+        width: 290px;
+        margin-bottom: 16px;
+    }
+
+    .footer__center-form-item input,
+    .footer__center-form-item textarea {
+        width: 250px;
+        padding: 14px 20px 14px 20px;
+        font-size: 14px;
+    }
+
+    .footer__center-form {
+        margin-bottom: 22px;
+    }
+
+    .footer__center-form-item {
+        margin-bottom: 25px;
+    }
+
+    .btn_footer-center-button {
+        width: 180px;
+        padding: 12px 28px 12px 28px;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+}
